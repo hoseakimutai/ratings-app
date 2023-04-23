@@ -1,5 +1,7 @@
 body{
     background-color: white;
+    width: 40vw;
+    
 }
 .numbers btn{
     display: flex;
@@ -20,4 +22,19 @@ body{
     background-color: yellow;
     border-radius: 7px;
     padding-bottom: 5px;
+}
+.result{
+    text-align:center ;
+    background-color: grey;
+    padding-top: 40px;
+    margin:5px;
+}
+.result button{
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: orangered;
+    
+}
+.result{
+    border-radius: 7px;
 }

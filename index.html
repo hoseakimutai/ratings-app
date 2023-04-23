@@ -2,34 +2,76 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rating App</title>
-    <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rating App</title>
+   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- <div class="star">
+   <div class="star">
        <h1> <ion-icon name="star-outline"></ion-icon> </h1>
-    </div> -->
-<div class="container">   
- <div class="wrapper" >
-   <h1>How did we do?</h1>
-   <p>please let us know how we did with your support<br>
-      request.All feedback is appreciated to help us<br> improve 
-    our offering</p>
-   <div class="numbers">
-    <button type="button" class="btn">1</button>
-    <button type="button" class="btn">2</button>
-    <button type="button" class="btn">3</button>
-    <button type="button" class="btn">4</button>
-    <button type="button" class="btn">5</button>
     </div>
-  </div>
- <div class="submit">
-    <button onclick="myFunction()">submit</button>   
- </div>
-</div>
+   <div class="container">
+      <div class="wrapper">
+         <span> <ion-icon name="star-outline"></ion-icon> </span>
+         <h1>How did we do?</h1>
+         <p>please let us know how we did with your support<br>
+            request.All feedback is appreciated to help us<br> improve
+            our offering</p>
+         <div class="numbers">
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">2</button>
+            <button type="button" class="btn">3</button>
+            <button type="button" class="btn">4</button>
+            <button type="button" class="btn">5</button>
+
+         </div>
+      </div>
+      <div class="submit">
+         <button onclick="myFunction()">submit</button>
+      </div>
+   </div>
+   <div class="notes-wrapper"></div>
+      <div class="result">
+       <button onclick="myFunction()">You selected 4 out of 5</button>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating.<br>
+         If you ever need more supprt,don't hesitate to<br> get
+         in touch!
+      </p>
+
+   </div>
+   
+
 </body>
 
 </html>
+   <!-- <script>
+      const numbers = document.getElementsByClassName("wrapper").
+         addEventListener("click", function () {
+            alert("");
+         });
+         var count;
+
+function numbermark(item)
+
+count=item.class[0];
+sessionStorage.numberRating = count;
+var container= item.class.substring(1);
+for(var i=0;i<5;i++)
+{
+if(i<count)
+{
+document.getElementsByClassName((numbers)).style.color="#FDE16D";
+}
+else
+{
+document.getElementById((i+1)+subid).style.color="black";
+}
+
+
+}
+      const tittle = document.getElementsByClassName("btn");
+   </script> -->
